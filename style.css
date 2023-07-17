@@ -73,6 +73,7 @@ button{
     background: #E02C6D;
     padding: 10px 24px;
     border: none;
+    cursor: pointer;
 
 }
 
