@@ -8,6 +8,7 @@ body{
     max-width: 1400px;
     margin: 0px auto;
 }
+/* header section style */
 header{
     padding: 40px 120px;
 }
@@ -75,6 +76,19 @@ button{
 
 }
 
+/*market place section style */
+.market{
+    padding: 30px 160px;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2.5rem 0rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
 
 
 
@@ -85,6 +99,7 @@ button{
     html{
         font-size: 12px;
     }
+    /* header */
     nav{
         flex-direction: column;
         gap: 10px;
@@ -99,6 +114,15 @@ button{
     }
     .header-content img{
         width: 70%;
+    }
+
+    /* market */
+    .market{
+        padding: 10px 10px;
+    }
+    .imgs{
+        border: none;
+        flex-wrap: wrap;
     }
     
 }
