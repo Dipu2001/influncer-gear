@@ -5,7 +5,7 @@
 
 }
 body{
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0px auto;
 }
 /* header section style */
@@ -132,12 +132,34 @@ button{
     color: #0A0826;
     font-size: 2.25rem;
     font-weight: 700;
+    margin-bottom: 1.25rem;
 }
 .feature-text p{
     color: #6C6C6C;
     font-size: 1rem;
     font-weight: 700;
     max-width: 500px;
+    margin-bottom: 1.25rem;
+}
+/* footer section style */
+.footer{
+    background: #0A0826;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.footer h1{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer p{
+    color: #FFF;
+    max-width: 300px;
+    margin: 1rem auto;
+    color: #a3a5aa;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
 
